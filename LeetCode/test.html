@@ -1,0 +1,17 @@
+<html>
+
+    <head>
+        <script>
+            
+            function a (nums) {
+                let singleDigitSort = nums.sort().reverse();
+                singleDigitSort = singleDigitSort.join("");
+                singleDigitSort = singleDigitSort.split("");
+
+                console.log(singleDigitSort);
+            };
+
+            a([3,30,34,5,9]); 
+        </script>
+    </head>
+</html>
